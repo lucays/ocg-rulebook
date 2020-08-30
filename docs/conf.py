@@ -88,8 +88,8 @@ html_theme_options = {
     'color': 'rgba(3, 172, 244, 0.8)',
     'description': 'OCG完全规则书 by 碎冰',
     'github_user': 'lucays',
-    'github_repo': 'ocg-rule',
-    'canonical_url': 'https://ocg-rule.readthedocs.io',
+    'github_repo': 'ocg-rulebook',
+    'canonical_url': 'https://ocg-rulebook.readthedocs.io',
     'analytics_id': 'UA-131764005-1',
     'last_updated': (datetime.datetime.now() + datetime.timedelta(hours=8)).strftime("%Y-%m-%d %H:%M:%S"),
 }
@@ -135,7 +135,7 @@ html_favicon = '.static/favicon.ico'
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'ocg-ruledoc'
+htmlhelp_basename = 'ocg-rulebookdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -178,7 +178,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('pdf_index', 'ocg-rule.tex', 'ocg-rule Documentation',
+    ('pdf_index', 'ocg-rulebook.tex', 'ocg-rulebook Documentation',
      '碎冰', 'manual'),
 ]
 
@@ -191,7 +191,7 @@ latex_show_urls = 'footnote'
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'ocg-rule', 'ocg-rule Documentation',
+    (master_doc, 'ocg-rulebook', 'ocg-rulebook Documentation',
      [author], 1)
 ]
 
@@ -202,8 +202,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'ocg-rule', 'ocg-rule Documentation',
-     author, 'ocg-rule', 'One line description of project.',
+    (master_doc, 'ocg-rulebook', 'ocg-rulebook Documentation',
+     author, 'ocg-rulebook', 'One line description of project.',
      'Miscellaneous'),
 ]
 
