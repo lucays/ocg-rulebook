@@ -90,7 +90,7 @@ html_theme_options = {
     'github_user': 'lucays',
     'github_repo': 'ocg-rulebook',
     'canonical_url': 'https://ocg-rulebook.readthedocs.io',
-    'analytics_id': 'UA-131764005-1',
+    'analytics_id': 'G-VY2P3EQR0X',
     'last_updated': (datetime.datetime.now() + datetime.timedelta(hours=8)).strftime("%Y-%m-%d %H:%M:%S"),
 }
 html_sidebars = {
