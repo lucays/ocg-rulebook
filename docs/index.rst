@@ -13,13 +13,13 @@ Welcome to ocg-rule's documentation!
 前言
 ======
 
-.. sidebar:: 以前的完全规则书翻译
+.. sidebar:: 以前的完全规则书翻译 by warsier
 
    | 2017新大师规则完全规则书→\ `gitbook <https://warsier.gitbooks.io/new_master_rule>`__
    | 2014大师规则3完全规则书→\ `gitbook <https://warsier.gitbooks.io/yugioh_master_rule_3/content/>`__
 
 | 这里是游戏王OCG完全规则书2020的中文翻译。
-| 相比以前的完全规则书，没有变动的内容沿用了之前的译者@warsier 的翻译，已获得许可，在此表示感谢。
+| 相比以前的完全规则书，没有变动的内容沿用了之前的译者\ `@warsier <https://tieba.baidu.com/home/main?un=787012293>`__ 的翻译，已获得许可，在此表示感谢。
 | 原文中不准确的内容会有标注。此外原文部分内容不够详细，可以参考\ `ocg rule <https://ocg-rule.readthedocs.io>`__\ 的相关部分。
 | 对某些内容有疑问或发现内容有错误，都可以通过下方的\ 联系方式_\ 联系我。
 | 其他参考\ `ocg rule <https://ocg-rule.readthedocs.io>`__\ 的前言部分，不再复述。
