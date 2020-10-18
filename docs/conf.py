@@ -140,7 +140,7 @@ htmlhelp_basename = 'ocg-rulebookdoc'
 
 # -- Options for LaTeX output ------------------------------------------------
 
-latex_logo = '.static/pdf_cover.png'
+latex_logo = '.static/2020/pdf_cover.png'
 font_path = os.path.join(os.getcwd(), 'fonts') + '/'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
@@ -160,7 +160,7 @@ latex_elements = {
     # 'figure_align': 'htbp',
     'sphinxsetup': 'attentionBorderColor={rgb}{0.012,0.663,0.957}, noteBorderColor={rgb}{0.012,0.663,0.957}, tipBorderColor={rgb}{1,0.412,0.706}',
     'papersize': 'a4paper',
-    'figure_align': 'H',
+    'figure_align': 'ht',
     'extraclassoptions': 'openany,oneside',
     'preamble': r'''
         \usepackage[UTF8]{ctex}
@@ -221,4 +221,4 @@ texinfo_documents = [
 #
 # epub_uid = ''
 epub_show_urls = 'no'
-epub_cover = ('_static/epub_cover.png', 'epub-cover.html')
+epub_cover = ('_static/2020/epub_cover.jpg', 'epub-cover.html')
