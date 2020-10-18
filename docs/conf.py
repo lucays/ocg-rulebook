@@ -47,7 +47,7 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['.templates']
+templates_path = ['_templates']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -103,7 +103,7 @@ html_sidebars = {
     ]
 }
 
-html_static_path = ['.static']
+html_static_path = ['_static']
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
@@ -128,9 +128,9 @@ html_static_path = ['.static']
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
 #
-html_favicon = '.static/favicon.ico'
+html_favicon = '_static/favicon.ico'
 
-# html_logo = '.static/logo.webp'
+# html_logo = '_static/logo.webp'
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
@@ -140,7 +140,7 @@ htmlhelp_basename = 'ocg-rulebookdoc'
 
 # -- Options for LaTeX output ------------------------------------------------
 
-latex_logo = '.static/2020/pdf_cover.png'
+latex_logo = '_static/2020/pdf_cover.png'
 font_path = os.path.join(os.getcwd(), 'fonts') + '/'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').

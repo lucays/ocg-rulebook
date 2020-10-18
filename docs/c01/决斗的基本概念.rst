@@ -40,9 +40,9 @@
 决斗场地
 ============
 
-.. figure:: ../.static/2020/c01/1.png
+.. figure:: ../_static/2020/c01/1.png
     :align: center
-    :target: ../.static/2020/c01/1.png
+    :target: ../_static/2020/c01/1.png
 
     决斗场地
 
