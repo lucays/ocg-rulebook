@@ -86,7 +86,7 @@ html_theme_path = [sphinx_typlog_theme.get_path()]
 html_theme_options = {
     'logo': 'logo.webp',
     'color': 'rgba(3, 172, 244, 0.8)',
-    'description': 'OCG完全规则书 by 碎冰',
+    'description': 'OCG完全规则书翻译 by 碎冰',
     'github_user': 'lucays',
     'github_repo': 'ocg-rulebook',
     'canonical_url': 'https://ocg-rulebook.readthedocs.io',
