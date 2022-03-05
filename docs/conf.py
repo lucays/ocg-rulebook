@@ -16,10 +16,7 @@ import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-import sphinx_typlog_theme
 import datetime
-# from jupyter_sphinx_theme import *
-# init_theme()
 
 # -- Project information -----------------------------------------------------
 
@@ -81,29 +78,33 @@ pygments_style = None
 # html_theme = "sphinx_rtd_theme"
 # html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
-html_theme = 'sphinx_typlog_theme'
-html_theme_path = [sphinx_typlog_theme.get_path()]
+html_theme = 'furo'
+html_logo = "_static/logo.webp"
+html_title = "OCG RuleBook"
+html_permalinks_icon = "¶"
+
 html_theme_options = {
-    'logo': 'logo.webp',
-    'color': 'rgba(3, 172, 244, 0.8)',
-    'description': 'OCG完全规则书翻译 by 碎冰',
-    'github_user': 'lucays',
-    'github_repo': 'ocg-rulebook',
-    'canonical_url': 'https://ocg-rulebook.readthedocs.io',
-    'analytics_id': 'G-VY2P3EQR0X',
-    'last_updated': (datetime.datetime.now() + datetime.timedelta(hours=8)).strftime("%Y-%m-%d %H:%M:%S"),
-}
-html_sidebars = {
-    '**': [
-        'logo.html',
-        'docstatus.html',
-        'github.html',
-        'searchbox.html',
-        'globaltoc.html',
-    ]
+    "navigation_with_keys": True,
+    "light_css_variables": {
+        "color-brand-primary": "#03a9f4",
+        "color-brand-content": "#03a9f4",
+        "color-link": "rgba(0,0,0,.95)",
+        "color-foreground-primary": "rgba(0,0,0,.8)",
+    },
+    "dark_css_variables": {
+        "color-brand-primary": "#03a9f4",
+        "color-brand-content": "#03a9f4",
+        "color-link": "#ffffffcc",
+        "color-foreground-primary": "#ffffffcc"
+    },
 }
 
+html_css_files = [
+    'css/custom.css',
+]
+
 html_static_path = ['_static']
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
@@ -140,7 +141,7 @@ htmlhelp_basename = 'ocg-rulebookdoc'
 
 # -- Options for LaTeX output ------------------------------------------------
 
-latex_logo = '_static/2020/pdf_cover.png'
+latex_logo = '_static/pdf_cover.png'
 font_path = os.path.join(os.getcwd(), 'fonts') + '/'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
@@ -221,4 +222,4 @@ texinfo_documents = [
 #
 # epub_uid = ''
 epub_show_urls = 'no'
-epub_cover = ('_static/2020/epub_cover.jpg', 'epub-cover.html')
+epub_cover = ('_static/epub_cover.jpg', 'epub-cover.html')

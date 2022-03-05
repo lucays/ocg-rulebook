@@ -1,0 +1,49 @@
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.3em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+html {
+    scroll-behavior: auto;
+}
+
+article {
+    font-size: medium;
+}
+
+a.github {
+    margin-left: 1rem;
+}
+
+.line-block {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.headerlink {
+    color: rgba(0, 0, 0, .24);
+}
